@@ -284,24 +284,142 @@ document.addEventListener('DOMContentLoaded', function() {
             });
     }
 
-    // Mobile menu toggle
+    // Mobile menu toggle - Enhanced for iOS
     const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
     const mainNav = document.getElementById('main-nav');
 
     if (mobileMenuToggle && mainNav) {
+        // Fix for iOS viewport height issues
+        let vh = window.innerHeight * 0.01;
+        document.documentElement.style.setProperty('--vh', `${vh}px`);
+
+        // Update viewport height on resize
+        window.addEventListener('resize', () => {
+            vh = window.innerHeight * 0.01;
+            document.documentElement.style.setProperty('--vh', `${vh}px`);
+        });
+
         mobileMenuToggle.addEventListener('click', () => {
             mainNav.classList.toggle('active');
             mobileMenuToggle.classList.toggle('active');
+            
+            // Toggle body scrolling when menu is open
+            document.body.classList.toggle('menu-open');
         });
 
-        // Optional: Close menu when a link is clicked
+        // Close menu when a link is clicked
         mainNav.querySelectorAll('a').forEach(link => {
             link.addEventListener('click', () => {
                 if (mainNav.classList.contains('active')) {
-                    mainNav.classList.remove('active');
-                    mobileMenuToggle.classList.remove('active');
+                    // Small delay to allow the click to register
+                    setTimeout(() => {
+                        mainNav.classList.remove('active');
+                        mobileMenuToggle.classList.remove('active');
+                        document.body.classList.remove('menu-open');
+                    }, 100);
                 }
             });
         });
+
+        // Close menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (mainNav.classList.contains('active') && 
+                !mainNav.contains(e.target) && 
+                !mobileMenuToggle.contains(e.target)) {
+                mainNav.classList.remove('active');
+                mobileMenuToggle.classList.remove('active');
+                document.body.classList.remove('menu-open');
+            }
+        });
+    }
+
+    // Mobile bottom navigation functionality
+    const mobileBottomNav = document.querySelector('.mobile-bottom-nav');
+    if (mobileBottomNav) {
+        const navItems = mobileBottomNav.querySelectorAll('.mobile-nav-item');
+        
+        // Set active state based on current URL
+        const setActiveNavItem = () => {
+            const currentPath = window.location.pathname;
+            const hash = window.location.hash;
+            
+            navItems.forEach(item => {
+                const itemHref = item.getAttribute('href');
+                
+                // Check if it's a page and we're on that page, or if it's a hash and matches
+                if ((currentPath.includes('index.html') || currentPath === '/' || currentPath === '') && 
+                    itemHref.startsWith('#') && hash === itemHref) {
+                    item.classList.add('active');
+                } else if (currentPath.includes('chemical.html') && itemHref.includes('#products')) {
+                    item.classList.add('active');
+                } else if (currentPath.includes('quote.html') && itemHref.includes('quote.html')) {
+                    item.classList.add('active');
+                } else {
+                    item.classList.remove('active');
+                }
+            });
+        };
+        
+        // Initial check
+        setActiveNavItem();
+        
+        // Handle clicks on mobile nav items
+        navItems.forEach(item => {
+            item.addEventListener('click', function(e) {
+                const href = this.getAttribute('href');
+                
+                // Handle hash links with smooth scroll
+                if (href.includes('#') && !href.startsWith('http')) {
+                    const isExternalPage = href.includes('.html');
+                    if (!isExternalPage) {
+                        e.preventDefault();
+                        const targetId = href.split('#')[1];
+                        const targetElement = document.getElementById(targetId);
+                        
+                        if (targetElement) {
+                            // Remove active class from all items and add to clicked item
+                            navItems.forEach(navItem => navItem.classList.remove('active'));
+                            this.classList.add('active');
+                            
+                            // Scroll to element
+                            window.scrollTo({
+                                top: targetElement.offsetTop - 70,
+                                behavior: 'smooth'
+                            });
+                        }
+                    }
+                }
+            });
+        });
+        
+        // Listen for scroll events to update active state
+        if (window.location.pathname.includes('index.html') || window.location.pathname === '/' || window.location.pathname === '') {
+            window.addEventListener('scroll', () => {
+                // Get all section elements
+                const sections = document.querySelectorAll('section[id]');
+                
+                // Find which section is in view
+                let currentSection = '';
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop - 100;
+                    const sectionHeight = section.offsetHeight;
+                    if (window.scrollY >= sectionTop && window.scrollY < sectionTop + sectionHeight) {
+                        currentSection = section.getAttribute('id');
+                    }
+                });
+                
+                // Update active state in mobile nav
+                if (currentSection) {
+                    navItems.forEach(item => {
+                        const itemHref = item.getAttribute('href');
+                        if (itemHref === `#${currentSection}`) {
+                            item.classList.add('active');
+                        } else {
+                            item.classList.remove('active');
+                        }
+                    });
+                }
+            });
+        }
     }
 }); 
