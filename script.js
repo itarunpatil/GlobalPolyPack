@@ -283,4 +283,25 @@ document.addEventListener('DOMContentLoaded', function() {
                 console.error('Error loading related products:', error);
             });
     }
+
+    // Mobile menu toggle
+    const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
+    const mainNav = document.getElementById('main-nav');
+
+    if (mobileMenuToggle && mainNav) {
+        mobileMenuToggle.addEventListener('click', () => {
+            mainNav.classList.toggle('active');
+            mobileMenuToggle.classList.toggle('active');
+        });
+
+        // Optional: Close menu when a link is clicked
+        mainNav.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                if (mainNav.classList.contains('active')) {
+                    mainNav.classList.remove('active');
+                    mobileMenuToggle.classList.remove('active');
+                }
+            });
+        });
+    }
 }); 
