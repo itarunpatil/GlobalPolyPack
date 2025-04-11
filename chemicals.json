@@ -1,0 +1,232 @@
+{
+  "acrylamide": {
+    "name": "Acrylamide",
+    "formula": "C₃H₅NO",
+    "image": "images/acrylamide.jpg",
+    "overview": "Acrylamide is a white, odorless, crystalline solid that is highly soluble in water. It is primarily used in the production of polyacrylamides, which have numerous applications in various industries. Our product offers 98% MIN purity with AM 100% micro-biology grade.",
+    "properties": {
+      "cas": "79-06-1",
+      "molecular_weight": "71.08 g/mol",
+      "appearance": "White crystalline solid",
+      "melting_point": "84.5°C",
+      "boiling_point": "125°C at 25 mmHg",
+      "solubility": "Highly soluble in water, methanol, and ethanol",
+      "purity": "98% MIN",
+      "hazard_class": "Toxic, Class 6.1"
+    },
+    "applications": [
+      "Production of polyacrylamides for water treatment and wastewater processing",
+      "Paper manufacturing as a strengthening agent",
+      "Mineral processing for ore recovery and extraction",
+      "Soil conditioning in agriculture",
+      "Enhanced oil recovery in petroleum industry",
+      "Laboratory research and gel electrophoresis"
+    ],
+    "safety": "Acrylamide is classified as a toxic substance and should be handled with appropriate precautions. It is potentially carcinogenic and can cause neurotoxicity with prolonged exposure. Always use appropriate personal protective equipment including gloves, safety glasses, and adequate ventilation when handling. Refer to the Material Safety Data Sheet (MSDS) for comprehensive safety information.",
+    "packaging": [
+      "25 kg paper bags with polyethylene liners",
+      "50 kg fiber drums",
+      "500 kg and 1000 kg bulk bags (FIBC)",
+      "Custom packaging available upon request"
+    ],
+    "related": ["propylene-glycol", "citric-acid", "melamine"]
+  },
+  "citric-acid": {
+    "name": "Citric Acid",
+    "formula": "C₆H₈O₇",
+    "image": "images/citric-acid.jpeg",
+    "overview": "Citric acid is a weak organic acid that occurs naturally in citrus fruits. It's a colorless crystalline compound that is widely used as a natural preservative, flavoring agent, and pH adjuster in various industries. Our product is food grade, lab certified, and vegan friendly.",
+    "properties": {
+      "cas": "77-92-9",
+      "molecular_weight": "192.12 g/mol",
+      "appearance": "White crystalline powder",
+      "melting_point": "153°C",
+      "boiling_point": "Decomposes before boiling",
+      "solubility": "Highly soluble in water, ethanol, and slightly soluble in ether",
+      "grade": "Food Grade, Lab Certified",
+      "certification": "ISO Certified",
+      "vegan": "Yes"
+    },
+    "applications": [
+      "Food and beverage industry as a flavoring agent and preservative",
+      "Pharmaceutical industry as an acidulant and antioxidant",
+      "Cosmetics as a pH adjuster and preservative",
+      "Cleaning products as a chelating agent and water softener",
+      "Metal cleaning and surface treatment",
+      "Textile industry as a mordant in dyeing"
+    ],
+    "safety": "Citric acid is generally recognized as safe (GRAS) for consumption. However, in concentrated form, it can cause skin irritation and eye damage. It should be handled with appropriate precautions in industrial settings. Always wear protective gloves and eye protection when handling concentrated solutions.",
+    "packaging": [
+      "25 kg bags",
+      "50 kg bags",
+      "1000 kg bulk bags",
+      "Custom packaging available upon request"
+    ],
+    "related": ["acrylamide", "msg", "propylene-glycol"]
+  },
+  "dicyandiamide": {
+    "name": "Dicyandiamide",
+    "formula": "C₂H₄N₄",
+    "image": "images/Dicyandiamide.jpg",
+    "overview": "Dicyandiamide is a white crystalline compound that is a derivative of cyanamide. It's an important industrial chemical with numerous applications, particularly in agriculture and polymer production. Our PENGSHENG brand product offers 99.5% MIN purity.",
+    "properties": {
+      "cas": "461-58-5",
+      "molecular_weight": "84.08 g/mol",
+      "appearance": "White crystalline powder",
+      "melting_point": "209-210°C",
+      "boiling_point": "Decomposes before boiling",
+      "solubility": "Moderately soluble in water, soluble in polar organic solvents",
+      "purity": "99.5% MIN",
+      "brand": "PENGSHENG"
+    },
+    "applications": [
+      "Fertilizer industry as a nitrogen release inhibitor",
+      "Epoxy resin hardener for improved thermal stability",
+      "Flame retardant in various materials",
+      "Stabilizer in explosives manufacturing",
+      "Pharmaceutical intermediate",
+      "Paper industry for improved wet strength"
+    ],
+    "safety": "Dicyandiamide has low acute toxicity but should be handled with care in industrial settings. Avoid inhalation of dust and direct contact with skin and eyes. Use in well-ventilated areas and wear appropriate personal protective equipment when handling.",
+    "packaging": [
+      "25 kg bags (25.1 kg gross weight)",
+      "50 kg drums",
+      "500 kg and 1000 kg bulk bags",
+      "Custom packaging available upon request"
+    ],
+    "related": ["melamine", "maleic-anhydride", "acrylamide"]
+  },
+  "propylene-glycol": {
+    "name": "Propylene Glycol",
+    "formula": "C₃H₈O₂",
+    "image": "images/propylene-glycol.jpg",
+    "overview": "Propylene glycol is a clear, colorless, and viscous liquid with a faintly sweet taste. It's a synthetic organic compound (Propane-1,2 Diol) that is highly versatile and used in numerous applications due to its favorable properties like low toxicity and excellent solvency.",
+    "properties": {
+      "cas": "57-55-6",
+      "molecular_weight": "76.10 g/mol",
+      "appearance": "Clear, colorless, viscous liquid",
+      "melting_point": "-59°C",
+      "boiling_point": "188.2°C",
+      "solubility": "Miscible with water, acetone, and chloroform",
+      "grade": "Laboratory Reagent"
+    },
+    "applications": [
+      "Food industry as a humectant, solvent, and preservative",
+      "Pharmaceutical formulations as a solvent and carrier",
+      "Cosmetics and personal care products as a moisturizer",
+      "Antifreeze and de-icing solutions",
+      "E-liquid base in electronic cigarettes",
+      "Heat transfer fluid in HVAC systems"
+    ],
+    "safety": "Propylene glycol is generally recognized as safe for most uses. However, prolonged exposure to high concentrations may cause mild irritation to the eyes, skin, and respiratory tract. Always handle with proper ventilation and avoid prolonged direct contact.",
+    "packaging": [
+      "500 ml bottles",
+      "250 kg drums",
+      "1000 kg IBC containers",
+      "Bulk tanker deliveries",
+      "Custom packaging available upon request"
+    ],
+    "related": ["acrylamide", "citric-acid", "msg"]
+  },
+  "melamine": {
+    "name": "Melamine",
+    "formula": "C₃H₆N₆",
+    "image": "images/melamine-chemical-powder.jpeg",
+    "overview": "Melamine is a white, crystalline substance that contains 66% nitrogen by mass. It's a key compound in the production of melamine resins, which are used to make a wide variety of durable products. Our STGJ brand product offers 99.5% MIN purity from Shandong Shuntian Chemical Group.",
+    "properties": {
+      "cas": "108-78-1",
+      "molecular_weight": "126.12 g/mol",
+      "appearance": "White crystalline powder",
+      "melting_point": "354°C",
+      "boiling_point": "Sublimes",
+      "solubility": "Slightly soluble in water, soluble in hot water, glycerol, and pyridine",
+      "purity": "99.5% MIN",
+      "brand": "STGJ",
+      "standard": "GB/T9567-2016"
+    },
+    "applications": [
+      "Production of melamine formaldehyde resins for laminates and coatings",
+      "Manufacturing of flame-retardant materials",
+      "Production of plastic dinnerware and kitchenware",
+      "Fire-resistant fabrics and textiles",
+      "High-performance concrete admixtures",
+      "Pigment production for inks and plastics"
+    ],
+    "safety": "Melamine has low acute toxicity but can cause health issues if misused. It should not be used in food products. Industrial handling requires proper ventilation and personal protective equipment to prevent inhalation of dust. Follow all safety guidelines and regulations when using melamine in manufacturing processes.",
+    "packaging": [
+      "25 kg bags",
+      "1000 kg bulk bags",
+      "Custom packaging available upon request"
+    ],
+    "related": ["dicyandiamide", "maleic-anhydride", "acrylamide"]
+  },
+  "msg": {
+    "name": "Mono Sodium Glutamate",
+    "formula": "C₅H₈NNaO₄",
+    "image": "images/mono-sodium-glutamate.jpeg",
+    "overview": "Mono Sodium Glutamate (MSG) is the sodium salt of glutamic acid, one of the most abundant naturally occurring non-essential amino acids. It appears as a white crystalline powder and is used worldwide as a flavor enhancer in various food products, providing an umami taste that intensifies the meaty, savory flavor of food. Our MEIHUA brand product offers 99.0% MIN purity.",
+    "properties": {
+      "cas": "142-47-2",
+      "molecular_weight": "169.11 g/mol",
+      "appearance": "White crystalline powder",
+      "melting_point": "232°C (decomposition)",
+      "boiling_point": "Not applicable (decomposes)",
+      "solubility": "Highly soluble in water, slightly soluble in alcohol",
+      "purity": "99.0% MIN",
+      "brand": "MEIHUA",
+      "raw_material": "Corn starch",
+      "standard": "GB/T8967-2007",
+      "food_grade": "FCC grade/E621",
+      "shelf_life": "3 years"
+    },
+    "applications": [
+      "Food industry as a flavor enhancer in soups, broths, and savory foods",
+      "Restaurant cooking to improve taste profiles",
+      "Processed food manufacturing to enhance umami flavor",
+      "Seasoning blends and condiments",
+      "Meat products to improve taste and reduce sodium content",
+      "Snack food production"
+    ],
+    "safety": "MSG is generally recognized as safe by food safety authorities worldwide. Some individuals may experience sensitivity (known as 'MSG symptom complex'), though scientific consensus indicates it is safe for the general population when consumed in normal amounts. Use proper handling practices in industrial settings.",
+    "packaging": [
+      "25 kg bags",
+      "50 kg bags",
+      "1000 kg bulk bags",
+      "Custom packaging available upon request"
+    ],
+    "related": ["citric-acid", "propylene-glycol", "maleic-anhydride"]
+  },
+  "maleic-anhydride": {
+    "name": "Maleic Anhydride",
+    "formula": "C₄H₂O₃",
+    "image": "images/Maleic-Anhydride.jpeg",
+    "overview": "Maleic anhydride is a white crystalline compound with a sharp, acrid odor. It's an important industrial chemical used as a precursor for numerous products. Its unique chemical structure makes it highly reactive and valuable in polymer chemistry and organic synthesis. Our product offers 99.5% MIN purity.",
+    "properties": {
+      "cas": "108-31-6",
+      "molecular_weight": "98.06 g/mol",
+      "appearance": "White crystalline solid",
+      "melting_point": "52.8°C",
+      "boiling_point": "202°C",
+      "solubility": "Reacts with water to form maleic acid, soluble in acetone and many organic solvents",
+      "purity": "99.5% MIN",
+      "hazard_class": "Class 8, UN NO.2215",
+      "storage": "Avoid moisture"
+    },
+    "applications": [
+      "Production of unsaturated polyester resins for composites and fiberglass",
+      "Manufacturing of agricultural chemicals and pesticides",
+      "Production of lubricating oil additives",
+      "Synthesis of pharmaceuticals and intermediates",
+      "Water treatment chemicals",
+      "Paper sizing agents"
+    ],
+    "safety": "Maleic anhydride is corrosive and can cause severe burns to skin and eyes. It is a respiratory irritant and potential sensitizer. Proper ventilation, protective clothing, gloves, and eye protection are essential when handling. Follow all safety protocols and regulations for chemical handling.",
+    "packaging": [
+      "25 kg bags (25.1 kg gross weight)",
+      "50 kg drums",
+      "500 kg and 1000 kg bulk bags",
+      "Custom packaging available upon request"
+    ],
+    "related": ["dicyandiamide", "melamine", "msg"]
+  }
+} 
